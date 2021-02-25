@@ -1,193 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type= "text/css" href= "style.css"
-  </head>
-  <body>
-    <!--Wrapper-->
-    <div class="wrapper">
-      <header>
-        <a href="#" class="logo">Build-A-Bull</a>
-        <div class="toggle" onclick="toggleClassName();"></div>
-      </header>
 
-      <!--Sidebar-->
-      <div class="sidebar">
-        <ul>
-          <li><a href="#"> Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Testimonials</a></li>
-          <li><a href="#"> Facilities</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="sal.css">
+  <link rel="stylesheet" type="text/css" href="sal.js">
+  <link rel="stylesheet" type="text/css" href="style.css">
+<title>Build-a-Bull: Certified Personal Trainer (CPT) in Seattle,WA. PNW Gym</title>
+</head> <body>
+  <!--Wrapper-->
+  <div class="wrapper">
+    <header>
+      <a href="#" class="logo">Build-A-Bull</a>
+      <div class="toggle" onclick="toggleClassName();"></div>
+    </header>
 
-      <!--Banner-->
-      <div class="banner">
-        <img src="img/deadlift3.jpeg" />
-        <div class="content">
-          <h2>Certified Personal Trainer</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            fugiat similique, expedita assumenda labore porro,
-            <br /><br />
-            accusantium laboriosam pariatur reiciendis consequuntur voluptatibus
-            perferendis nemo totam eaque excepturi dicta eius a quam.
-          </p>
-        </div>
-      </div>
+    <!--Sidebar-->
+    <div class="sidebar">
+      <ul>
+        <li><a href="#home"> Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#facilities">Facilities</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </div>
 
-    <!--About-->
-    <section class="about">
-      <div class="contentBx">
-        <h2 class="heading">About Us</h2>
-        <p class="text1">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
-          ad, ab illum ex neque nam, possimus suscipit ducimus recusandae
-          accusamus est? Esse possimus pariatur culpa recusandae aliquam
-          excepturi sequi provident.<br /><br />
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
-          ad, ab illum ex neque nam, possimus suscipit ducimus recusandae
-          accusamus est? Esse possimus pariatur culpa recusandae aliquam
-          excepturi sequi provident.<br /><br />
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
-          ad, ab illum ex neque nam, possimus suscipit ducimus recusandae
-          accusamus est? Esse possimus pariatur culpa recusandae aliquam
-          excepturi sequi provident.<br /><br />
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
-          ad, ab illum ex neque nam, possimus suscipit ducimus recusandae
-          accusamus est? Esse possimus pariatur culpa recusandae aliquam
-          excepturi sequi provident.<br /><br />
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
-          ad, ab illum ex neque nam, possimus suscipit ducimus recusandae
-          accusamus est? Esse possimus pariatur culpa recusandae aliquam
-          excepturi sequi provident.<br /><br />
+    <!--Banner-->
+    <div class="banner"id="home">
+      <img src="img/deadlift3.jpeg" />
+      <div class="content" data-sal="slide-left" data-sal-duration="500">
+        <h2>Certified Personal Trainer</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+          fugiat similique, expedita assumenda labore porro,
+          <br /><br />
+          accusantium laboriosam pariatur reiciendis consequuntur voluptatibus
+          perferendis nemo totam eaque excepturi dicta eius a quam.
         </p>
       </div>
+    </div>
+  </div>
 
-      <div class="imgBx"></div>
-    </section>
+  <!--About-->
+  <section class="about" id="about">
+    <div class="contentBx">
+      <h2 class="heading">About Us</h2>
+      <p class="text1">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
+        ad, ab illum ex neque nam, possimus suscipit ducimus recusandae
+        accusamus est? Esse possimus pariatur culpa recusandae aliquam
+        excepturi sequi provident.<br /><br />
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
+        ad, ab illum ex neque nam, possimus suscipit ducimus recusandae
+        accusamus est? Esse possimus pariatur culpa recusandae aliquam
+        excepturi sequi provident.<br /><br />
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
+        ad, ab illum ex neque nam, possimus suscipit ducimus recusandae
+        accusamus est? Esse possimus pariatur culpa recusandae aliquam
+        excepturi sequi provident.<br /><br />
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
+        ad, ab illum ex neque nam, possimus suscipit ducimus recusandae
+        accusamus est? Esse possimus pariatur culpa recusandae aliquam
+        excepturi sequi provident.<br /><br />
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
+        ad, ab illum ex neque nam, possimus suscipit ducimus recusandae
+        accusamus est? Esse possimus pariatur culpa recusandae aliquam
+        excepturi sequi provident.<br /><br />
+      </p>
+    </div>
+
+    <div class="imgBx"></div>
+  </section>
   </div>
 
   <!--Service-->
 
-<section class="services">
-  <h2 class="heading">Our services</h2>
-  <p class="text1">
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
-    ad, ab illum ex neque nam, possimus suscipit ducimus recusandae
-    accusamus est? Esse possimus pariatur culpa recusandae aliquam
-    excepturi sequi provident.<br /><br />
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
-    ad, ab illum ex neque nam, possimus suscipit ducimus recusandae
-    accusamus est? Esse possimus pariatur culpa recusandae aliquam
-    excepturi sequi provident.</p>
+  <section class="services" id="services">
+    <h2 class="heading">Our services</h2>
+    <p class="text1">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
+      ad, ab illum ex neque nam, possimus suscipit ducimus recusandae
+      accusamus est? Esse possimus pariatur culpa recusandae aliquam
+      excepturi sequi provident.<br /><br />
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
+      ad, ab illum ex neque nam, possimus suscipit ducimus recusandae
+      accusamus est? Esse possimus pariatur culpa recusandae aliquam
+      excepturi sequi provident.</p>
 
     <div class="container">
-     
+
       <div class="serviceBx">
         <div>
-            <img src="img/ptgrey.jpg">
-            <h2>In person 1 on 1 </h2>
-          </div>
+          <img src="img/ptgrey.jpg">
+          <h2>In person 1 on 1 </h2>
         </div>
-     
-     
+      </div>
 
-      
-        <div class="serviceBx">
-          <div>
-              <img src="img/1on1grey.jpg">
-              <h2>Online 1 on 1 zoom</h2>
-            </div>
-          </div>
-       
 
-       
-          <div class="serviceBx">
-            <div>
-                <img src="img/online.jpg">
-                <h2>Online workout & meal plan</h2>
-              </div>
-            </div>
 
-          </div>
-  
-</section>
 
-<!--Facilities-->
+      <div class="serviceBx">
+        <div>
+          <img src="img/1on1grey.jpg">
+          <h2>Online 1 on 1 zoom</h2>
+        </div>
+      </div>
 
-<section class="facilities">
-  <div class= "contentBx">
-    <h2 class="heading">Facilities </h2>
-    <br><p class='text1'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit ut sunt adipisci incidunt dicta modi eaque fugiat atque saepe unde iste laborum nobis praesentium, cum corporis enim ipsa. Adipisci, cupiditate?</p><br>
-    <p class='text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit ut sunt adipisci incidunt dicta modi eaque fugiat atque saepe unde iste laborum nobis praesentium, cum corporis enim ipsa. Adipisci, cupiditate?</p><br>
-    <p class='text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit ut sunt adipisci incidunt dicta modi eaque fugiat atque saepe unde iste laborum nobis praesentium, cum corporis enim ipsa. Adipisci, cupiditate?</p>
-    
-  </div>
 
-<div class="imgBx">
-  <img src = "img/flex.png">
-</div></section>
 
-<!--testimonials-->
+      <div class="serviceBx">
+        <div>
+          <img src="img/online.jpg">
+          <h2>Online workout & meal plan</h2>
+        </div>
+      </div>
 
-<section class="testimonials">
-  <h2 class="heading">What our clients say</h2>
+    </div>
+
+  </section>
+
+  <!--Facilities-->
+
+  <section class="facilities" id="facilities">
+    <div class="contentBx">
+      <h2 class="heading">Facilities </h2>
+      <br>
+      <p class='text1'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit ut sunt adipisci incidunt dicta
+        modi eaque fugiat atque saepe unde iste laborum nobis praesentium, cum corporis enim ipsa. Adipisci, cupiditate?
+      </p><br>
+      <p class='text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit ut sunt adipisci incidunt dicta
+        modi eaque fugiat atque saepe unde iste laborum nobis praesentium, cum corporis enim ipsa. Adipisci, cupiditate?
+      </p><br>
+      <p class='text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit ut sunt adipisci incidunt dicta
+        modi eaque fugiat atque saepe unde iste laborum nobis praesentium, cum corporis enim ipsa. Adipisci, cupiditate?
+      </p>
+
+    </div>
+
+    <div class="imgBx">
+      <img src="img/flex.png">
+    </div>
+  </section>
+
+  <!--testimonials-->
+
+  <section class="testimonials" id="testimonials">
+    <h2 class="heading">What our clients say</h2>
     <div class="container">
 
       <div class="contentBx">
-          <div>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam laborum nulla similique eveniet dolores corporis? Architecto laborum dicta totam consectetur exercitationem a quidem cum sapiente provident, quaerat iure quasi molestias.</p>
-                <br> <h3>Someone Famous</h3><br>
-          </div>
+        <div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam laborum nulla similique eveniet dolores
+            corporis? Architecto laborum dicta totam consectetur exercitationem a quidem cum sapiente provident, quaerat
+            iure quasi molestias.</p>
+          <br>
+          <h3>Someone Famous</h3><br>
+        </div>
       </div>
 
       <div class="contentBx">
         <div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam laborum nulla similique eveniet dolores corporis? Architecto laborum dicta totam consectetur exercitationem a quidem cum sapiente provident, quaerat iure quasi molestias.</p>
-              <br> <h3>Someone Famous</h3><br>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam laborum nulla similique eveniet dolores
+            corporis? Architecto laborum dicta totam consectetur exercitationem a quidem cum sapiente provident, quaerat
+            iure quasi molestias.</p>
+          <br>
+          <h3>Someone Famous</h3><br>
         </div>
-    </div>
-
-    <div class="contentBx">
-      <div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam laborum nulla similique eveniet dolores corporis? Architecto laborum dicta totam consectetur exercitationem a quidem cum sapiente provident, quaerat iure quasi molestias.</p>
-            <br> <h3>Someone Famous</h3><br>
       </div>
-  </div>
-      
-  <div class="contentBx">
-    <div>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam laborum nulla similique eveniet dolores corporis? Architecto laborum dicta totam consectetur exercitationem a quidem cum sapiente provident, quaerat iure quasi molestias.</p>
-          <br> <h3>Someone Famous</h3><br>
+
+      <div class="contentBx">
+        <div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam laborum nulla similique eveniet dolores
+            corporis? Architecto laborum dicta totam consectetur exercitationem a quidem cum sapiente provident, quaerat
+            iure quasi molestias.</p>
+          <br>
+          <h3>Someone Famous</h3><br>
+        </div>
+      </div>
+
+      <div class="contentBx">
+        <div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam laborum nulla similique eveniet dolores
+            corporis? Architecto laborum dicta totam consectetur exercitationem a quidem cum sapiente provident, quaerat
+            iure quasi molestias.</p>
+          <br>
+          <h3>Someone Famous</h3><br>
+        </div>
+      </div>
+
     </div>
-</div>
-    
+  </section>
+
+  <!--Our team-->
+
+  <section class="team" id="team">
+    <h2 class="heading">Our Team</h2>
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dolore sunt officia optio. Harum
+      numquam ut cupiditate, incidunt id perferendis reprehenderit officiis repudiandae nihil esse totam deserunt
+      dolorum sit doloribus.</p>
+    <div class="container">
+
+      <div class="teamBx">
+        <div class="box">
+          <div class="imgBx">
+            <img src="img/bp1.jpg">
+          </div>
+          <div class="content">
+            <h2>Me<br><span>CEO and Founder</span></h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="teamBx">
+        <div class="box">
+          <div class="imgBx">
+            <img src="img/bp2.jpg">
+          </div>
+          <div class="content">
+            <h2>Me<br><span>CEO and Founder</span></h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="teamBx">
+        <div class="box">
+          <div class="imgBx">
+            <img src="img/bp3.jpg">
+          </div>
+          <div class="content">
+            <h2>Me<br><span>CEO and Founder</span></h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="teamBx">
+        <div class="box">
+          <div class="imgBx">
+            <img src="img/bp4.jpg">
+          </div>
+          <div class="content">
+            <h2>Me<br><span>CEO and Founder</span></h2>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--Contact-->
+  <section class="contact" id="contact">
+    <div>
+      <h2 class="heading">Contact us</h2>
+      <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deleniti earum soluta explicabo
+        voluptatem? Vitae corrupti expedita vero delectus quasi incidunt consequatur, error, temporibus odit asperiores
+        dolorum explicabo, animi ducimus.</p>
     </div>
   </section>
 
 
+  <section class="about">
+    <div class="contentBx redBg">
+      <div class="form">
+        <div class="inputBx">
+          <input type="text" name="" placeholder="Full Name">
+        </div>
+        <div class="inputBx">
+          <input type="text" name="" placeholder="Email Adress">
+        </div>
+        <div class="inputBx">
+          <input type="text" name="" placeholder="Mobile No.">
+        </div>
+        <div class="inputBx">
+          <textarea placeholder="Write your message here..."></textarea>
+          <div class="inputBx">
+            <input type="submit" value="Send" name="">
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <script type="text/javascript">
-      function toggleClassName() {
-        var sidebar = document.querySelector(".sidebar");
-        var wrapper = document.querySelector(".wrapper");
-        var toggle = document.querySelector(".toggle");
-        sidebar.classList.toggle("active");
-        wrapper.classList.toggle("active");
-        toggle.classList.toggle("active");
-      }
 
-      window.addEventListener("scroll", function () {
-        var header = document.querySelector("header");
-        header.classList.toggle("sticky", window.scrollY > 0);
-      });
-    </script>
+    <div class="imgBx2"></div>
+  </section>
+
+  <!--Footert-->
+
+  <section class="footer">
+    <p class="text">Designed & Developed By Daniel B.H. </p>
+    <ul>
+      <p class="text">Follow us on: </p>
+      <li><a href="#"><img src="img/facebook.png"></a></li>
+      <li><a href="#"><img src="img/twitter.png"></a></li>
+      <li><a href="#"><img src="img/linkedin.png"></a></li>
+      
+    </ul>
+  </section>
+
+
+  <script type="text/javascript"src="jal.js"></script>
+  <script type="text/javascript">
+ sal({
+
+  once: false,
+});
+  </script>
+
+  <script type="text/javascript">
+    function toggleClassName() {
+      var sidebar = document.querySelector(".sidebar");
+      var wrapper = document.querySelector(".wrapper");
+      var toggle = document.querySelector(".toggle");
+      sidebar.classList.toggle("active");
+      wrapper.classList.toggle("active");
+      toggle.classList.toggle("active");
+    }
+
+    window.addEventListener("scroll", function () {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+  </script>
   </body>
+
 </html>
