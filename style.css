@@ -37,7 +37,7 @@ header {
 
 header.sticky {
   padding: 20px 100px;
-  background: rgb(75, 75, 75);
+  background: rgb(150, 27, 27);
 }
 
 header .logo {
@@ -136,4 +136,151 @@ header .toggle.active {
 }
 .sidebar ul li a:hover {
   color: rgb(150, 27, 27);
+}
+
+.about {
+  position: relative;
+  width: 100%;
+  background: rgb(206, 205, 205);
+  display: flex;
+}
+
+.about .contentBx {
+  background: rgb(150, 27, 27);
+  width: 50%;
+}
+
+.heading {
+  position: relative;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.text {
+  position: relative;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.text1 {
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 350;
+  letter-spacing: 1px;
+}
+
+.about .imgBx {
+  position: relative;
+  width: 50%;
+  background-image: url(img/bb.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.services {
+  position: relative;
+  background: #12222d;
+  text-align: center;
+  padding: 100px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.container .serviceBx {
+  position: relative;
+  background: #fff;
+  width: 350px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.container .serviceBx img {
+  max-width: 200px;
+}
+
+.container .serviceBx h2 {
+  padding-top: 5px;
+  font-weight: 500px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.facilities {
+  position: relative;
+  background: #3f8ffc;
+  width: 100%;
+  padding: 100px;
+  padding-left: 100px;
+  padding-top: 300px;
+  margin-top: -300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.facilities .contentBx {
+  position: relative;
+  max-width: 1000px;
+}
+
+.facilities .imgBx {
+  position: relative;
+  max-width: 500px;
+}
+
+.facilities .imgBx img {
+  max-width: 100%;
+}
+
+.testimonials {
+  position: relative;
+  padding: 100px;
+  background: #12222d;
+  text-align: center;
+}
+
+.testimonials .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  flex-wrap: wrap;
+}
+
+.testimonials .container .contentBx {
+  position: relative;
+  background: #ffff;
+  padding: 60px 50px;
+  margin: 10px;
+  width: 540px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials .container .contentBx p {
+  font-style: italic;
+}
+
+.testimonials .container .contentBx h3 {
+  width: 100%;
+  text-align: right;
+  font-weight: 500;
+  color: #3f8ffc;
 }
