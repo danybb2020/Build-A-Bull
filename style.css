@@ -12,6 +12,7 @@
 body {
   background: rgb(92, 92, 92);
   height: 1000px;
+  overflow-x: hidden;
 }
 .wrapper {
   position: relative;
@@ -110,7 +111,7 @@ header .toggle.active {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 100;
+  z-index: 1000;
   transition: 0.5s;
 }
 
@@ -212,11 +213,12 @@ header .toggle.active {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
+  z-index: 100;
 }
 
 .container .serviceBx img {
   max-width: 200px;
+  z-index: 50;
 }
 
 .container .serviceBx h2 {
