@@ -264,22 +264,22 @@
   </section>
 
 
-  <section class="about">
+  <section class=about>
     <div class="contentBx redBg">
-      <div class="form"data-sal="slide-right" data-sal-duration="500">
+      <div class="form" id="contact-form" method="post" action="contact-form-handler.php" data-sal="slide-right" data-sal-duration="500">
         <div class="inputBx">
-          <input type="text" name="" placeholder="Full Name">
+          <input name="name" type="text" name="" placeholder="Full Name" required>
         </div>
         <div class="inputBx">
-          <input type="text" name="" placeholder="Email Adress">
+          <input name= "email" type="text" class= "form-control" name="" placeholder="Email Adress" required>
         </div>
         <div class="inputBx">
-          <input type="text" name="" placeholder="Mobile No.">
+          <input name ="mobile" type="text" class= "form-control"  name="" placeholder="Mobile No.">
         </div>
         <div class="inputBx">
-          <textarea placeholder="Write your message here..."></textarea>
+          <textarea name="message" class= "form-control" placeholder="Write your message here..." required></textarea>
           <div class="inputBx">
-            <input type="submit" value="Send" name="">
+            <input name = "submit" type="submit" class= "form-control"  value="Send" name="">
           </div>
         </div>
       </div>
