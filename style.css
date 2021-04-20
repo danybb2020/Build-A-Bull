@@ -72,7 +72,6 @@ header .toggle.active {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: grey;
 }
 
 .banner img {
@@ -92,12 +91,13 @@ header .toggle.active {
 }
 
 .banner .content h2 {
-  font-size: 60px;
-  color: white;
+  font-size: 80px;
+  color: rgb(150, 27, 27);
+  font-weight: bolder;
 }
 
 .banner .content p {
-  font-size: 20px;
+  font-size: 40px;
   color: white;
 }
 
@@ -137,6 +137,10 @@ header .toggle.active {
   text-decoration: none;
 }
 .sidebar ul li a:hover {
+  color: rgb(150, 27, 27);
+}
+
+h2 {
   color: rgb(150, 27, 27);
 }
 
@@ -185,7 +189,7 @@ header .toggle.active {
 .about .imgBx {
   position: relative;
   width: 50%;
-  background-image: url(img/bb.jpeg);
+  background-image: url(img/bp3.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -193,7 +197,6 @@ header .toggle.active {
   position: relative;
   background: #12222d;
   text-align: center;
-  padding: 100px;
 }
 
 .container {
@@ -203,6 +206,7 @@ header .toggle.active {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 60px;
+  padding: 50px;
 }
 
 .container .serviceBx {
@@ -253,6 +257,10 @@ header .toggle.active {
 
 .facilities .imgBx img {
   max-width: 100%;
+}
+
+.facilities ul li {
+  font-size: larger;
 }
 
 .testimonials {
@@ -529,5 +537,9 @@ header .toggle.active {
   }
   .footer p {
     text-align: center;
+  }
+
+  li {
+    font-size: large;
   }
 }
